@@ -26,7 +26,8 @@
     "serve:docs": "cd docs && mintlify dev",
     "format": "prettier --write \"**/*.{md,mdx}\"",
     "format:check": "prettier --check \"**/*.{md,mdx}\"",
-    "check-links": "cd docs && mintlify broken-links"
+    "check-links": "cd docs && mintlify broken-links",
+    "generate:spec:txt": "cd scripts && tsx generate-spec-txt.ts && tsx generate-spec-txt.ts --full"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
